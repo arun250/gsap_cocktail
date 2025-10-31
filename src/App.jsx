@@ -5,13 +5,22 @@ import Hero from './components/Hero'
 gsap.registerPlugin(ScrollTrigger, SplitText)
 
 import React from 'react'
+import Cocktails from './components/Cocktails'
+import About from './components/About'
+import Art from './components/Art'
+import Menu from './components/Menu'
+import Contact from './components/Contact'
 
 function App() {
   return (
     <main>
       <Navbar />
       <Hero />
-      <div className='h-dvh bg-black'></div>
+      <Cocktails />
+      <About />
+      <Art />
+      <Menu />
+      <Contact/>
    </main>
   )
 }
